@@ -1,6 +1,6 @@
 const express = require("express");
 const connectDB = require("./config/db");
-const notesRouter = require("./routes/notesRoute");
+const notesRouter = require("./routes/notesroute");
 const app = express();
 const port = 3000;
 app.use(express.json());
